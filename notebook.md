@@ -87,7 +87,7 @@ Java常用集合类
 
 结构也是数组+链表，由segment数组+hashentry组成
 
-![](D:\Desktop\java\Markdown\新建文件夹\VM.jpg)
+![](images\CHM.jpg)
 
 hashentry和hashmap差不多，不同的是使用volatile修饰了数据value和下一个节点next
 
@@ -116,9 +116,9 @@ get方法不加锁
   - 优点：可以减少唤起线程的开销，整体的吞吐效率高，因为线程有几率不阻塞直接获得锁，CPU不必唤醒所有线程
   - 缺点：等待队列中的线程可能会饿死，或者等很久才会获得锁。
 
-![img](https://upload-images.jianshu.io/upload_images/15069189-a9f89f56561c3195.png?imageMogr2/auto-orient/strip|imageView2/2/w/693/format/webp)
+![img](images\webp)
 
-![img](https://upload-images.jianshu.io/upload_images/15069189-7dc5707c2d51be85.png?imageMogr2/auto-orient/strip|imageView2/2/w/693/format/webp)
+![img](images\webp1)
 
 
 
@@ -419,7 +419,7 @@ rollback;回滚事务
 
 1. 注解
 2. 线程池
-3. 并行和并发![image-20200717100413091](C:\Users\xinbo.ju\AppData\Roaming\Typora\typora-user-images\image-20200717100413091.png)
+3. 并行和并发![image-20200717100413091](images\image-20200717100413091.png)
 4. 垃圾回收什么时候启动，四种引用
 5. CMS的步骤，初始标记和并发标记的区别，初始标记中的安全点和安全区域
 6. 哪些对象可被gf root直接找到？
